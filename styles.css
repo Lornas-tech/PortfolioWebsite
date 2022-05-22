@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Kumbh+Sans&family=Montserrat:wght@100&family=Poppins:wght@200&family=Roboto+Mono:wght@100&family=Source+Serif+4&family=Space+Mono&display=swap');
+
+
+
+
+body {
+  background-color: RGB(32, 135, 166);
+  margin: 0;
+  text-align: center;
+  font-family: 'Glacial Indifference', serif;
+}
+header {
+  padding-top:20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+  color: #bba6ed;
+  top: 5px;
+  overflow: hidden;
+
+}
+
+h1:hover {
+  transform: scale(1.03);
+}
+.float-right {
+float: right;
+width: 50%;
+}
+
+h2 {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1rem;
+  color: #f5daff;
+  font-weight: none;
+  float: left;
+
+}
+
+h3 {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #f5daff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #bba6ed;
+}
+h5 {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #bba6ed;
+  text-align: left;
+  margin-left: 100px;
+}
+
+
+h6 {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+p {
+  line-height: 2;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #bba6ed;
+  font-size: 1rem;
+  padding-top: 20px;
+  overflow: hidden;
+
+}
+hr {
+  border: dotted #e0b0ff 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: RGB(32, 135, 166);
+  position: relative;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+
+.middle-container-2 {
+  display: flex;
+   justify-content: center;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     flex-wrap: wrap;
+}
+
+.projects {
+  background-color: #a1e6fd;
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+
+}
+.projectimage {
+  background-color: #17292f;
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.project-1 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu5Jgsp2_D6ldW57Ciq-oOgNRACHBjz-yk3Q&usqp=CAU');
+
+}
+.project-2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFwApyJMJdyBQiLAlx2amikr6aiD3H6-STlQ&usqp=CAU");
+}
+
+.project-3 {
+  background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--HS8bkkIb--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kh657gzuo9flabph0y4a.jpg');
+}
+.project-4 {
+  background-image: url("https://www.magesolution.com/blog/wp-content/uploads/2019/11/ecommerce-website.jpg");
+}
+
+.project-5 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKUNtUaYISRUY6RKDckC5ABCbo9shaiBt0Kw&usqp=CAU");
+  background-size: cover;
+}
+
+.project-6 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMQIBC458kYvuBtbjR4i_o8BWTJNyhZtTs2A&usqp=CAU');
+  background-size: cover;
+
+}
+
+.project-7 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8dwDb0nr6wgwQH2dGOPVJR8HpVHEDYrdcLw&usqp=CAU');
+}
+.project-8 {
+  background-image: url("https://www.astera.com/wp-content/uploads/2020/01/rest.png");
+}
+.project-9 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZwi9eOHQy-dhIdDsBdOVlx-fLSFdC3KyOeQ&usqp=CAU");
+}
+
+.projects p {
+  padding: 10px;
+  color: black;
+}
+.projects a {
+  background-color: #17292f;
+  color: #bba6ed;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+
+.projects:hover {
+  background-color: #ffff;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+
+}
+
+
+
+.bottom-container {
+  background-color: #17292f;
+  padding: 20px 0 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.skills {
+  width: 300px;
+  height: 100px;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+.skills:hover {
+  transform: scale(1.03);
+
+}
+
+.canva {
+  width: 75px;
+  height: 75px;
+  margin-right: 100px;
+}
+.canva:hover {
+  transform: scale(1.03);
+
+}
+.bootstrap {
+  width: 100px;
+  height: 90px;
+  margin-right: 300px;
+}
+.bootstrap:hover {
+  transform: scale(1.03);
+
+}
+
+.react {
+  width: 100px;
+  height: 100px;
+  margin-top: -30px;
+}
+.react:hover {
+  transform: scale(1.03);
+
+}
+
+
+a {
+  color: #f5daff;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.myskills {
+  text-align: center;
+  background-color: #17292f;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+}
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+}
+.profile-picture:hover {
+  transform: scale(1.03);
+}
+.csspage {
+  height: 150px;
+  width: 200px;
+  bottom: 100px;
+  padding-top: 75px;
+  left: 300px;
+}
+
+
+.contact-me {
+  padding-bottom: 100px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.btn {
+  background: #f5daff;
+  background-image: -webkit-linear-gradient(top, #e2d7fe, #f5b9de);
+  background-image: -moz-linear-gradient(top, #e2d7fe, #f5b9de));
+  background-image: -ms-linear-gradient(top, #e2d7fe, #f5b9de));
+  background-image: -o-linear-gradient(top, #e2d7fe, #f5b9de));
+  background-image: linear-gradient(to bottom, #e2d7fe, #f5b9de));
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Kumbh Sans';
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f5b9de;
+  background-image: -webkit-linear-gradient(top, #f5b9de, #66509f);
+  background-image: -moz-linear-gradient(top, #f5b9de, #66509f);
+  background-image: -ms-linear-gradient(top, #f5b9de, #66509f);
+  background-image: -o-linear-gradient(top, #f5b9de, #66509f);
+  background-image: linear-gradient(to bottom, #f5b9de, #66509f);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #f5b9de;
+  font-size: 0.75rem;
+  padding-bottom: 5px;
+  padding-top: 100px;
+}
